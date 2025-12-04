@@ -122,6 +122,7 @@ function reorderSections(outputArea) {
 // CAPITALIZE FOR DISPLAY
 function capitalize(section) {
     if (section === 'msk') return 'MSK';
+    if (section === 'heent') return 'HEENT';
     return section.charAt(0).toUpperCase() + section.slice(1);
 }
 
